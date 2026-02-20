@@ -50,7 +50,7 @@
 @media only screen and (min-width: 1440px) {
 .home-section {
         background-image: url("/img/hero/desk.png");
-        height: 824px;
+
     }
 .bird,
 .down{
@@ -71,5 +71,38 @@
 }
 .home-text{
     margin-bottom: 50px;
+}
+}
+/* Disclaimer */
+.disclaimer-container{
+    position: relative;
+   padding: 150px 30px;
+    margin-top: 180px;
+    border-radius: 50px;
+        width: 375px;
+
+        background: #008ffa;
+}
+.disclaimer-img{
+    position: absolute;
+right: 0;
+    z-index: 2;
+    top: -32%;
+}
+.disclaimer-text{
+        line-height: 1.5;
+        color: #00ffd9;
+}
+@media only screen and (min-width: 1440px) {
+ .disclaimer-container{
+    width: 1284px;
+    padding: 53px 436px 53px 68px;
+    margin-top: 20px;
+ }
+ .disclaimer-img {
+    position: absolute;
+    right: 4%;
+    z-index: 2;
+    top: -51%;
 }
 }
