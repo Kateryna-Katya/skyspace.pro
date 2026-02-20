@@ -1,0 +1,49 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+.home-section{
+    background-image: url("/img/hero/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+.home-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+.home-title{
+    margin-top: 30px;
+    font-size: 32px;
+  margin-bottom: 16px;
+}
+.home-text{
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.home-container{
+    position: relative;
+    padding-bottom: 440px;
+}
+.bird{
+    position: absolute;
+    bottom: -13%;
+    left:0;
+}
+.down{
+    position: absolute;
+        bottom: -13%;
+        left: 0;
+        z-index: 1;
+}
