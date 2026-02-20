@@ -286,3 +286,24 @@ height: 720px;
 .battle-item{
     font-weight: 900;
 }
+@media only screen and (min-width: 1440px) {
+  .battle-section{
+    background-image: url("/img/battle/desk.png");
+  }
+  .battle-container{
+    padding: 63px 140px 108px;
+  }
+  .battle-wrapper{
+    margin-left: 0;
+    margin-right: auto;
+    width: 634px;
+  }
+  .battle-text{
+    margin-top: 60px;
+  }
+  .battle-list{
+    margin-top: 73px;
+    width: 461px;
+    margin-left: 86px;
+  }
+}
