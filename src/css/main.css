@@ -220,7 +220,6 @@ height: 810px;
     display: none;
 
     z-index: 9999;
-    /* 🔥 НАД iframe */
     pointer-events: auto;
 }
 
@@ -402,4 +401,49 @@ height: 720px;
     .desk{
         display: block;
     }
+}
+/* THE GUARDIANS */
+.guardians-section{
+    background-image: url("/img/guardians/mob.png");
+    background-repeat: no-repeat;
+    background-position: top -60px center;
+    background-size: auto;
+
+}
+.guardians-container{
+    padding: 190px 0;
+}
+.guardians-title{
+    text-align: center;
+}
+.guardians-text{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 41px;
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.guardians-arrow{
+    background: inherit;
+    border: none;
+}
+@media only screen and (min-width: 1440px) {
+.guardians-section{
+    background-image: url("/img/guardians/desk.png");
+    background-position: top -40px center;
+}
+.guardians-container {
+    padding: 100px 0;
+}
+.guardians-text {
+    margin-bottom: 16px;
+}
+.guardians-swiper .swiper-slide img{
+    width: 100%;
+}
+
 }
