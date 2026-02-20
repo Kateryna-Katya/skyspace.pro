@@ -111,7 +111,6 @@ right: 0;
 .demo-container {
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 100px;
 }
 
 .demo-wrapper {
@@ -262,4 +261,28 @@ height: 720px;
 
         transform: translateX(-50%);
     }
+}
+/* THE BATTLEFIELD */
+.battle-section{
+    background-image: url("/img/battle/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.battle-container{
+    padding-top: 63px;
+    padding-bottom: 247px;
+}
+.battle-text{
+    margin-top: 20px;
+}
+.battle-list{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-bottom: 60px;
+}
+.battle-item{
+    font-weight: 900;
 }
