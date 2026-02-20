@@ -47,3 +47,29 @@
         left: 0;
         z-index: 1;
 }
+@media only screen and (min-width: 1440px) {
+.home-section {
+        background-image: url("/img/hero/desk.png");
+        height: 824px;
+    }
+.bird,
+.down{
+    display: none;
+}
+.home-container{
+    padding-bottom: 108px;
+    padding-right: 140px;
+}
+.home-wrapper{
+    margin-right: 0;
+    margin-left: auto;
+    width: 628px;
+    margin-top: 100px;
+}
+.home-title{
+    margin-bottom: 50px;
+}
+.home-text{
+    margin-bottom: 50px;
+}
+}
