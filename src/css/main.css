@@ -307,3 +307,46 @@ height: 720px;
     margin-left: 86px;
   }
 }
+/* MANUAL CONTROL SYSTEM */
+.manual-section{
+    padding-top: 26px;
+
+}
+.section-inner{
+    background-image: url("/img/manual/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;    
+}
+.manual-container{
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+.manual-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+}
+.manual-text{
+    margin-top: 40px;
+}
+.manual-list{
+    margin-top: 73px;
+}
+@media only screen and (min-width: 1440px) {
+    .manual-section {
+    padding-top: 56px;    
+    }
+   .section-inner{
+    background-image: url("/img/manual/desk.png");
+   }
+   .manual-container {
+       padding-top: 63px;
+       padding-bottom: 108px;
+       padding-left: 140px;
+   }
+   .mob{
+    display: none;
+   }
+}
